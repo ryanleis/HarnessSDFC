@@ -1,0 +1,22 @@
+service:
+  name: helloWorldHarness
+  identifier: helloWorldHarness
+  orgIdentifier: LeisCorp
+  gitOpsEnabled: false
+  serviceDefinition:
+    type: CustomDeployment
+    spec:
+      customDeploymentRef:
+        templateRef: org.Salesforce
+        versionLabel: v1
+      artifacts:
+        primary:
+          primaryArtifactRef: <+input>
+          sources:
+            - spec:
+                connectorRef: account.RamAWSConnector
+                bucketName: harness-sfdc-artifacts
+                region: us-east-1
+                filePath: harness-sfdc-lwc-deployment_<+pipeline.sequenceId>.zip
+              identifier: S3
+              type: AmazonS3
