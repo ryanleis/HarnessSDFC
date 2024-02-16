@@ -1,0 +1,15 @@
+infrastructureDefinition:
+  name: SalesForceDevSandbox
+  identifier: SalesForceDevSandbox
+  description: ""
+  tags: {}
+  orgIdentifier: LeisCorp
+  environmentRef: dev
+  deploymentType: CustomDeployment
+  type: CustomDeployment
+  spec:
+    customDeploymentRef:
+      templateRef: org.Salesforce
+      versionLabel: v1
+    variables: []
+  allowSimultaneousDeployments: false
