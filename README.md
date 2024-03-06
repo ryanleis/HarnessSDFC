@@ -26,4 +26,4 @@ Depending on what scope you create your templates you will need to update/add th
     - *templateRef: _"salesforce_download_artifact"_
 
 **Documentation:**
-https://developer.harness.io/docs/continuous-delivery/deploy-srv-diff-platforms/custom-deployment-tutorial/#deployment-template-sample-library
+[[https://developer.harness.io/docs/continuous-delivery/deploy-srv-diff-platforms/custom-deployment-tutorial/#deployment-template-sample-library](https://developer.harness.io/docs/continuous-delivery/deploy-srv-diff-platforms/custom-deployment-tutorial/#deployment-template-sample-library)https://developer.harness.io/docs/continuous-delivery/deploy-srv-diff-platforms/custom-deployment-tutorial/#deployment-template-sample-library](https://developer.harness.io/docs/continuous-delivery/deploy-srv-diff-platforms/custom-deployment-tutorial/#deployment-template-sample-library)https://developer.harness.io/docs/continuous-delivery/deploy-srv-diff-platforms/custom-deployment-tutorial/#deployment-template-sample-library
