@@ -9,7 +9,7 @@ Steps:
 5. Service
 6. Pipeline
 
-Depnedning on what scope you create you templates you will need to ensure you update/add the following:
+Depending on what scope you create your templates you will need to update/add the following to reference correctly:
 
 - Account:
   - *templateRef: _"account.salesforce_download_artifact"_
