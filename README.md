@@ -10,6 +10,7 @@
 6. Pipeline
 
 **Customise to fit:**
+
 Depending on what scope you create your templates you will need to update/add the following to reference correctly:
 
 - Account:
