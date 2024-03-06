@@ -14,7 +14,7 @@ Depnedning on what scope you create you templates you will need to ensure you up
 - Account:
   - *templateRef: _"account.salesforce_download_artifact"_
 
-- Organistaion:
+- Organisation:
     - orgIdentifier: _Organisation-Name_
     - *templateRef: _"org.salesforce_download_artifact"_
       
